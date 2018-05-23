@@ -1,0 +1,194 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+.navStyle
+{
+background-color: #7b6284;
+border-color:#efe8e8
+}
+
+.navbar-brand
+{
+  font-size:1.5vw;
+  color:white !important;
+  text-shadow: 1px 1px 2px black;
+}
+
+@media (max-width: 800px)
+{
+  .navbar-brand
+  {
+    font-size:3vw;
+  }
+}
+@media (max-width: 400px)
+{
+  .navbar-brand
+  {
+    font-size:4vw;
+  }
+}
+
+.card{
+  color:#7b6284;
+}
+
+#postsHTML{
+  background-color:#7b6284;
+  border-color:grey;
+  text-align:center
+}
+.fab
+{
+  font-size:1.5em;
+  color:white;
+}
+
+h4{
+  font-weight: bold;
+  color:#7b6284;
+}
+
+.jumbotron
+{
+  color:#7b6284;
+  background-color: #efe8e8;
+  text-align: center;
+}
+
+a:hover{color:#aa94b2 !important;}
+
+.container h3{
+  font-family:Alex Brush;
+  font-size: 2em;
+  text-shadow: 1px 2px 4px grey;
+}
+
+@media (max-width: 400px)
+{
+  .jumbotron
+  {
+    font-size:4vw;
+  }
+}
+
+.btn{
+  background-color:#7b6284;
+  color:white;
+}
+
+#tokenText{
+  color:#7b6284;
+}
+
+#load{
+ width:50px;
+ height: 50px;
+}
+
+i,strong
+{
+  color:#7b6284;
+}
+
+
+/*Navbar  */
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+/*End Navbar */
+
+#coverPic{
+  height: 60vh;
+  width: 90%;
+  position: relative;
+  z-index:-1;
+  border-width: 1px;
+  border-color: Black;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#profilePic{
+  height: 40vh;
+  width: auto;
+  margin-top: -20vh;
+  border-width: 1px;
+  border-color: Black;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(83, 49, 127, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ 
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:#7b6284;
+  height: 2em;
+  padding: 0.5em;
+  color:white;
+  text-shadow: 1px 1px 2px black
+}
+
+.boldSpan{
+  font-weight: bold;
+}
+
+
+
+div{
+  font-family:"Segoe UI";
+
+}
+
+#myPostPicture{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-style:solid;
+  border-width:1px;
+  width: 60%;
+  height: auto;
+}
+
+#postCard{
+
+  background: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-width: 1px;
+  border-color: #4A6AAA;
+  border-style: solid;
+ 
+}
+
+#loaderPosts{
+  float:right;
+}
+
+.fas{
+  text-decoration-style: : none;
+  margin-left: 4em;
+}
